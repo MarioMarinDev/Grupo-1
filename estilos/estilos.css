@@ -1,0 +1,35 @@
+
+* {
+  font-size: 20px;
+  color: gray;
+  text-align: left;
+}
+
+a, p {
+  text-align: center;
+  color: red;
+  background-color: black;
+}
+
+ol li {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-style: italic;
+}
+
+#logo {
+  width: 150px;
+  height: 50px;
+}
+
+div.poster {
+  display: inline-block;
+  border-style: solid;
+  border-radius: 10px;
+  border-color: red;
+  border-width: 4px;
+  margin: 20px;
+}
+
+div.poster h3 {
+  text-align: center;
+}
