@@ -1,35 +1,66 @@
 
-* {
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+body {
+  font-family: 'League Spartan', sans-serif;
+  margin: 0;
   font-size: 20px;
-  color: gray;
+  color: white;
+  background-color: #232C33;
   text-align: left;
 }
 
-a, p {
-  text-align: center;
-  color: red;
-  background-color: black;
+#encabezado {
+  background-color: #A0C1D1;
+  color: black;
+  padding: 5px 50px;
 }
 
-ol li {
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  font-style: italic;
+#encabezado a {
+  text-decoration: none;
+}
+
+#encabezado h1 {
+  display: inline-block;
+  margin: 0;
 }
 
 #logo {
-  width: 150px;
-  height: 50px;
+  width: 60px;
+  height: 60px;
+  margin-right: 30px;
+}
+
+#redes-sociales {
+  float: right;
+}
+
+#contenido-principal {
+  padding: 1em 150px;
 }
 
 div.poster {
   display: inline-block;
+  width: 300px;
   border-style: solid;
   border-radius: 10px;
-  border-color: red;
+  border-color: black;
   border-width: 4px;
   margin: 20px;
+  background-color: black;
+}
+
+div.poster#seleccionado, div.poster:hover {
+  border-color: #C97064;
+  color: #C97064;
+  transition: 0.5s;
 }
 
 div.poster h3 {
   text-align: center;
+  padding: 0 15px;
+}
+
+div.poster img {
+  width: 100%;
 }
