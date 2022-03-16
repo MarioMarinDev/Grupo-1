@@ -13,7 +13,10 @@ body {
 #encabezado {
   background-color: #A0C1D1;
   color: black;
-  padding: 5px 50px;
+  padding: 5px 10%;
+  border-bottom-style: solid;
+  border-bottom-color: black;
+  border-bottom-width: 4px;
 }
 
 #encabezado a {
@@ -33,10 +36,25 @@ body {
 
 #redes-sociales {
   float: right;
+  padding-top: 26px;
+}
+
+div#redes-sociales a {
+  margin-left: 50px;
 }
 
 #contenido-principal {
-  padding: 1em 150px;
+  padding: 1em 15%;
+}
+
+#pie-pagina {
+  text-align: center;
+  padding: 20px 10%;
+  background-color: #A0C1D1;
+  color: black;
+  border-top-style: solid;
+  border-top-color: black;
+  border-top-width: 4px;
 }
 
 div.poster {
