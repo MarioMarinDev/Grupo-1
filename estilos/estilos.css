@@ -111,6 +111,11 @@ div.poster {
   background-color: black;
 }
 
+div.poster.rojo {
+  background-color: red;
+  border-color: crimson;
+}
+
 div.poster#seleccionado, div.poster:hover {
   border-color: #C97064;
   color: #C97064;
@@ -124,4 +129,17 @@ div.poster h3 {
 
 div.poster img {
   width: 100%;
+}
+
+/* [ POKEAPI ] */
+div.pkmn-card {
+  text-align: center;
+  background-color: white;
+  border-color:aquamarine;
+  border-style: solid;
+  border-radius: 12px;
+  border-width: 2px;
+  color: black;
+  margin: 10px;
+  display: inline-block;
 }
